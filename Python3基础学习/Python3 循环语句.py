@@ -163,3 +163,22 @@ for n in range(2, 10):
     else:
         # 循环中没有找到元素
         print(n, ' 是质数')
+
+# ---------------------------------pass语句-----------------------------------
+# Python pass是空语句，是为了保持程序结构的完整性。pass不做任何事情，一般用做占位语句，
+# >>> while True:
+#     ...
+#     pass  # 等待键盘中断 (Ctrl+C)
+# 最小的类:
+# >>>class MyEmptyClass:
+#     ...
+#     pass
+
+
+# 以下实例在字母为o时执行pass语句块:
+for letter in 'Runoob':
+    if letter == 'o':
+        pass
+        print('执行 pass 块')
+    print('当前字母 :', letter)
+print("Good bye!")
